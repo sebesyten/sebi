@@ -104,3 +104,24 @@ footer img {
 .project-card h2 {
     margin-top: 10px;
 }
+
+.project-detail {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.description {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+}
