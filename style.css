@@ -229,3 +229,55 @@ footer img {
 .image-wrapper:hover .overlay {
     opacity: 1;
 }
+
+@media (max-width: 768px) {
+
+    /* FEJLÉC */
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    /* KATEGÓRIÁK */
+    .categories {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    /* PROJEKTEK */
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    /* HERO KÉP */
+    .hero img {
+        height: 50vh;
+    }
+
+    /* ABOUT */
+    .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .about-text, .about-image {
+        width: 100%;
+    }
+
+}
