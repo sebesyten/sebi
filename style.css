@@ -6,7 +6,6 @@ body {
 h1, h2 {
     font-weight: 600;
 }
-}
 
 /* FEJLÉC */
 header {
@@ -15,7 +14,7 @@ header {
     align-items: center;
     padding: 15px 30px;
     background-color: #111;
-    color: black;
+    color: white;
 }
 
 .logo {
